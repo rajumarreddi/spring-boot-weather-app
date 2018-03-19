@@ -1,0 +1,5 @@
+openweather.apiKey: 2ab261a78ea163851db44d9e99f88492
+
+gateway:
+  endpoint:
+   weather: http://api.openweathermap.org/data/2.5/weather?q={city},{country}&APPID=${openweather.apiKey}
